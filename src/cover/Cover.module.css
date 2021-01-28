@@ -1,0 +1,118 @@
+section {
+  display: flex !important;
+  margin: auto;
+  width: 85%;
+}
+.content {
+  width: 50%;
+  margin-top: 150px;
+}
+.images {
+  width: 50%;
+}
+.images .union {
+  float: right;
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  top: 0;
+}
+.images .union1 {
+  position: absolute;
+  z-index: 0;
+  right: 0;
+  top: 0;
+}
+.images .bitmap {
+  position: absolute;
+  z-index: 1;
+  right: 240px;
+  top: 124px;
+}
+.images .ellipse {
+  position: absolute;
+  z-index: 2;
+  top: 644px;
+  right: 250px;
+}
+
+.content p {
+  font-size: 16px;
+  color: #191919;
+  margin-top: 20px;
+}
+
+ul {
+  display: flex;
+}
+
+.ellipse1,
+.ellipse2,
+.ellipse3,
+.ellipse4,
+.ellipse5 {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: darkolivegreen;
+  margin-right: 10px;
+}
+
+.ellipse2 {
+  background-color: #feb554;
+}
+.ellipse3 {
+  background-color: #606651;
+}
+.ellipse4 {
+  background-color: #edab7b;
+}
+.ellipse5 {
+  background-color: #c56a72;
+}
+
+.circle1 {
+  position: relative;
+  width: 34px;
+  height: 34px;
+  background-color: #666666;
+  border-radius: 50%;
+}
+
+.circle2 {
+  transform: translate(10%, 10%);
+  width: 28px;
+  height: 28px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.circle3 {
+  transform: translate(22%, 22%);
+  width: 20px;
+  height: 20px;
+  background-color: #666666;
+  border-radius: 50%;
+}
+.priceContainer {
+  display: flex;
+  align-items: center;
+}
+.price {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+.btnBuy {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 20px;
+  line-height: 2.9;
+  text-transform: uppercase;
+  width: 190px;
+  height: 44px;
+  margin-left: 3rem;
+}

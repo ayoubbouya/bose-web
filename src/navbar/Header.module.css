@@ -1,0 +1,16 @@
+.navbar {
+  margin: 10px auto;
+  width: 85%;
+}
+.navLink {
+  color: #000 !important;
+  padding: 0 1rem !important;
+  font-weight: bolder;
+}
+.icon,
+.iconGroup21 {
+  width: 20px;
+}
+.iconGroup21 {
+  margin-left: 15px;
+}

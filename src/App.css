@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "GothamBook";
+  font-style: normal;
+  src: url("./font/GothamBook.ttf") format("truetype");
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "GothamBook", "Open Sans";
+}
+ul {
+  list-style: none;
+}
