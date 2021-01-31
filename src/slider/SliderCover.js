@@ -6,7 +6,6 @@ import media02 from "./imgSlider/media02.svg";
 import media03 from "./imgSlider/media03.svg";
 import media04 from "./imgSlider/media04.svg";
 import media05 from "./imgSlider/media05.svg";
-
 import prevArrow from "./imgSlider/prevArrow.png";
 import nextArrow from "./imgSlider/nextArrow.png";
 

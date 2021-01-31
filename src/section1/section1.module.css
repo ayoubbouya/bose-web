@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+
+.section1 {
+  position: relative;
+  margin-top: 4rem;
+}
+.waves {
+  position: absolute;
+  left: -24px;
+  top: -87px;
+}
+.photo {
+  position: absolute;
+  left: 126px;
+}
+
+.section2 {
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-left: -10rem;
+}
+
+.heading1 {
+  font-size: 4.5rem;
+  font-weight: bolder;
+}
+.paragraph {
+  width: 68%;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 1.8;
+  font-weight: lighter;
+}

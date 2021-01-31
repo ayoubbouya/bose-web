@@ -2,6 +2,7 @@ section {
   display: flex !important;
   margin: auto;
   width: 85%;
+  height: 80vh;
 }
 .content {
   width: 50%;

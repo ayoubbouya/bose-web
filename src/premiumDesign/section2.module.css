@@ -1,0 +1,32 @@
+.heading {
+  text-align: center;
+  font-weight: bold;
+}
+.paragraph {
+  text-align: center;
+  width: 30%;
+  margin: auto;
+}
+.containerUnions {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.union2 img,
+.union1 img {
+  height: 100%;
+}
+.union2,
+.union1 {
+  width: 25%;
+  height: 100%;
+}
+.containerPictures {
+  position: relative;
+}
+.casque {
+  position: absolute;
+  top: 10%;
+  width: 65%;
+  left: 21%;
+}

@@ -1,0 +1,30 @@
+.container {
+  width: 85%;
+  margin: 1rem auto;
+
+  position: relative;
+}
+.list {
+  padding: 0.3rem 2rem;
+  margin-right: 0.8rem;
+  padding-top: 0.9rem;
+  font-weight: 900;
+  cursor: pointer;
+  width: 150px;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.borderElement {
+  background: #ffffff;
+  border: 1px solid #191919;
+  box-sizing: border-box;
+  border-radius: 12px 12px 0px 0px;
+  border-bottom: 1px solid #ffffff;
+}
+
+.borderBottom {
+  border-top: 1px solid black;
+  width: 82%;
+  margin: -17px auto;
+}

@@ -1,13 +1,13 @@
 @font-face {
-  font-family: "GothamBook";
+  font-family: "GothamBold";
   font-style: normal;
-  src: url("./font/GothamBook.ttf") format("truetype");
+  src: url("./font/GothamMedium.ttf") format("truetype");
 }
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "GothamBook", "Open Sans";
+  font-family: "GothamBold", "Open Sans";
 }
 ul {
   list-style: none;
