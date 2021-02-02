@@ -11,18 +11,64 @@ import nextArrow from "./imgSlider/nextArrow.png";
 
 class SliderCover extends Component {
   render() {
+    const SlickButtonFix = ({
+      currentSlide,
+      slideCount,
+      children,
+      ...props
+    }) => <span {...props}>{children}</span>;
+
     const settings = {
       infinite: true,
       centerMode: true,
       speed: 500,
       slidesToShow: 5,
       slidesToScroll: 1,
-      centerPadding: "0px",
+      autoplay: true,
+      speed: 2000,
+      autoplaySpeed: 2000,
+      cssEase: "linear",
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true,
+          },
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            initialSlide: 2,
+          },
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          },
+        },
+      ],
       prevArrow: (
-        <img className={styles.images} src={prevArrow} alt="prev button" />
+        <SlickButtonFix>
+          <img className={styles.images} src={prevArrow} alt="prev button" />
+        </SlickButtonFix>
       ),
       nextArrow: (
-        <img className={styles.images} src={nextArrow} alt="next button" />
+        <SlickButtonFix>
+          <div
+            style={{
+              marginTop: -50,
+            }}
+          >
+            <img className={styles.images} src={nextArrow} alt="next button" />
+          </div>
+        </SlickButtonFix>
       ),
     };
     return (

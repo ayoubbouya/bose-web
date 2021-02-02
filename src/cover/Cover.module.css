@@ -4,6 +4,11 @@ section {
   width: 85%;
   height: 80vh;
 }
+.heading1 {
+  font-size: 64px;
+  font-weight: 800;
+  width: 80%;
+}
 .content {
   width: 50%;
   margin-top: 150px;

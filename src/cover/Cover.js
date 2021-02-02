@@ -4,14 +4,15 @@ import bitmap from "../img/Bitmap.svg";
 import ellipse from "../img/Ellipse.png";
 import union from "../img/Union.png";
 import union1 from "../img/Union-1.png";
-import perfectSound from "../img/PerfectSound.png";
 
 function Cover() {
   return (
     <div>
       <section className={styles.container}>
         <div className={styles.content}>
-          <img className={styles.perfectSound} src={perfectSound} alt="" />
+          <h1 className={styles.heading1}>
+            QuietComfort 35 wireless headphones II
+          </h1>
           <p>Select your color:</p>
           <ul className={styles.colors}>
             <li className={styles.ellipse1}>

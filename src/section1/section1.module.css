@@ -26,11 +26,12 @@
 }
 
 .heading1 {
-  font-size: 4.5rem;
+  font-size: 4.6rem;
   font-weight: bolder;
+  width: 68%;
 }
 .paragraph {
-  width: 68%;
+  width: 67%;
   text-align: justify;
   font-size: 18px;
   line-height: 1.8;

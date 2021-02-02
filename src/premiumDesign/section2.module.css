@@ -6,27 +6,36 @@
   text-align: center;
   width: 30%;
   margin: auto;
+  margin-bottom: 8rem;
 }
 .containerUnions {
   display: flex;
   justify-content: space-between;
-  position: relative;
 }
-.union2 img,
-.union1 img {
-  height: 100%;
+.casque {
+  width: 800px;
+}
+.plus {
+  display: flex;
+  position: relative;
+  width: 40px;
+}
+.plusPic {
+  position: relative;
+  width: 40px;
+}
+.triangle {
+  padding: 0rem 1rem;
+  padding-top: 1.5rem;
+  width: 320px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px #bbbbbb;
+  position: relative;
+  margin-left: 40px;
+  margin-top: 40px;
 }
 .union2,
 .union1 {
-  width: 25%;
-  height: 100%;
-}
-.containerPictures {
-  position: relative;
-}
-.casque {
-  position: absolute;
-  top: 10%;
-  width: 65%;
-  left: 21%;
+  margin-top: -10rem;
+  width: 50%;
 }
