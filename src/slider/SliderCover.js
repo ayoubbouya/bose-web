@@ -6,18 +6,19 @@ import media02 from "./imgSlider/media02.svg";
 import media03 from "./imgSlider/media03.svg";
 import media04 from "./imgSlider/media04.svg";
 import media05 from "./imgSlider/media05.svg";
-import prevArrow from "./imgSlider/prevArrow.png";
-import nextArrow from "./imgSlider/nextArrow.png";
+
+function SampleNextArrow(props) {
+  const { className, onClick } = props;
+  return <div className={className} onClick={onClick} />;
+}
+
+function SamplePrevArrow(props) {
+  const { className, onClick } = props;
+  return <div className={className} onClick={onClick} />;
+}
 
 class SliderCover extends Component {
   render() {
-    const SlickButtonFix = ({
-      currentSlide,
-      slideCount,
-      children,
-      ...props
-    }) => <span {...props}>{children}</span>;
-
     const settings = {
       infinite: true,
       centerMode: true,
@@ -25,17 +26,34 @@ class SliderCover extends Component {
       slidesToShow: 5,
       slidesToScroll: 1,
       autoplay: true,
-      speed: 2000,
       autoplaySpeed: 2000,
+      width: 510,
       cssEase: "linear",
+      nextArrow: <SampleNextArrow />,
+      prevArrow: <SamplePrevArrow />,
       responsive: [
         {
-          breakpoint: 1024,
+          breakpoint: 1424,
+          settings: {
+            slidesToShow: 4,
+            slidesToScroll: 3,
+            infinite: true,
+          },
+        },
+        {
+          breakpoint: 1154,
           settings: {
             slidesToShow: 3,
             slidesToScroll: 3,
             infinite: true,
-            dots: true,
+          },
+        },
+        {
+          breakpoint: 900,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 3,
+            infinite: true,
           },
         },
         {
@@ -54,27 +72,11 @@ class SliderCover extends Component {
           },
         },
       ],
-      prevArrow: (
-        <SlickButtonFix>
-          <img className={styles.images} src={prevArrow} alt="prev button" />
-        </SlickButtonFix>
-      ),
-      nextArrow: (
-        <SlickButtonFix>
-          <div
-            style={{
-              marginTop: -50,
-            }}
-          >
-            <img className={styles.images} src={nextArrow} alt="next button" />
-          </div>
-        </SlickButtonFix>
-      ),
     };
     return (
       <div>
         <div className={styles.sliderContainer}>
-          <Slider {...settings}>
+          <Slider {...settings} className={styles.slide}>
             <div>
               <img src={media01} alt="media 01" />
             </div>

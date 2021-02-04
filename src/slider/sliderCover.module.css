@@ -1,9 +1,5 @@
 .sliderContainer {
-  width: 85%;
-  margin: 0rem auto;
+  width: 80%;
+  margin: 2rem auto;
   margin-bottom: 8rem;
-}
-.images {
-  background-color: blueviolet;
-  margin-bottom: 30px;
 }

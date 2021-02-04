@@ -8,7 +8,7 @@ function section1() {
     <div className={styles.container}>
       <section className={styles.section1}>
         <img className={styles.waves} src={waves} alt="waves" />
-        <img className={styles.photo} src={photo} alt="girl" />
+        <img className={styles.photo} src={photo} alt="hello" />
       </section>
       <section className={styles.section2}>
         <h1 className={styles.heading1}>Perfect sound immersive world</h1>

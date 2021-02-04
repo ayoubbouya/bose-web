@@ -6,6 +6,7 @@ import Section1 from "./section1/Section1";
 import Section2 from "./premiumDesign/Section2";
 import "./App.css";
 import Battery from "./battery/Battery";
+import Products from "./products/Products";
 function App() {
   return (
     <div>
@@ -16,6 +17,7 @@ function App() {
       <Section1 />
       <Section2 />
       <Battery />
+      <Products />
     </div>
   );
 }

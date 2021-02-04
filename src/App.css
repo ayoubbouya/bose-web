@@ -12,3 +12,18 @@
 ul {
   list-style: none;
 }
+
+.slick-prev:before {
+  content: url(./slider/imgSlider/prevArrow.png);
+  margin-left: -3rem;
+}
+
+.slick-next:before {
+  content: url(./slider/imgSlider/nextArrow.png);
+  margin-left: 3rem;
+}
+
+.slick-next,
+.slick-prev {
+  top: 40%;
+}
