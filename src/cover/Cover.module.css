@@ -60,8 +60,8 @@ ul {
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  background-color: darkolivegreen;
-  margin-right: 10px;
+  background-color: #666666;
+  margin-right: 15px;
   cursor: pointer;
 }
 
@@ -123,10 +123,86 @@ ul {
   height: 44px;
   margin-left: 3rem;
 }
-.selectedEllipse {
-  color: #df1515;
-  font-size: 1rem;
+
+.selected {
+  font-size: 15px;
+  font-weight: 900;
+  margin-left: -2px;
+  position: relative;
 }
-.selectedDefault {
-  font-size: 2rem;
+
+.hide {
+  visibility: hidden;
+}
+
+.color1 {
+  color: #666666;
+}
+.color2 {
+  color: #feb554;
+}
+
+.color3 {
+  color: #606651;
+}
+
+.color4 {
+  color: #edab7b;
+}
+.color5 {
+  color: #c56a72;
+}
+.circle01,
+.circle001,
+.circle0001,
+.circle00001 {
+  position: relative;
+  width: 34px;
+  height: 34px;
+  background-color: #feb554;
+  border-radius: 50%;
+}
+
+.circle03,
+.circle003,
+.circle0003,
+.circle00003 {
+  transform: translate(20%, 20%);
+  width: 20px;
+  height: 20px;
+  background-color: #feb554;
+  border-radius: 50%;
+}
+
+.circle001 {
+  background-color: #606651;
+}
+
+.circle003 {
+  background-color: #606651;
+}
+.circle0001 {
+  background-color: #edab7b;
+}
+
+.circle0003 {
+  background-color: #edab7b;
+}
+.circle00001 {
+  background-color: #c56a72;
+}
+
+.circle00003 {
+  background-color: #c56a72;
+}
+
+.circle02,
+.circle002,
+.circle0002,
+.circle00002 {
+  transform: translate(10%, 10%);
+  width: 28px;
+  height: 28px;
+  background-color: white;
+  border-radius: 50%;
 }
