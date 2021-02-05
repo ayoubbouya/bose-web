@@ -7,6 +7,7 @@
   width: 85%;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 4rem;
 }
 .btn {
   width: 190px;
@@ -18,5 +19,25 @@
 .heading1 {
   font-weight: 800;
 }
-.slickProduct {
+.card {
+  background-color: white;
+  width: 325px;
+  height: 465px;
+  border-radius: 15px;
+  margin: auto;
+}
+.img {
+  margin: auto;
+  padding-top: 3rem;
+}
+.heading4 {
+  text-align: left;
+  width: 90%;
+  padding: 3rem 2rem;
+  padding-bottom: 0;
+  line-height: 1.4;
+}
+.price {
+  padding-left: 2rem;
+  opacity: 0.3;
 }

@@ -10,7 +10,7 @@ class Products extends Component {
     var settings = {
       dots: false,
       infinite: true,
-      slidesToShow: 3,
+      slidesToShow: 4,
       slidesToScroll: 1,
       autoplay: true,
       autoplaySpeed: 2000,
@@ -18,7 +18,7 @@ class Products extends Component {
       pauseOnHover: true,
       centerMode: true,
       cssEase: "linear",
-      pauseOnHover: true,
+      arrows: false,
     };
     return (
       <div>
@@ -28,63 +28,77 @@ class Products extends Component {
               <h1 className={styles.heading1}>Related producs</h1>
               <button className={styles.btn}>show all</button>
             </div>
-
-            <Slider {...settings}>
-              <div>
-                <article>
-                  <img src={Bitmap} alt="bitmap" />
-                  <div>
-                    <h4>QuietComfort 35 wireless headphones II</h4>
-                    <p>$449.99</p>
-                  </div>
-                </article>
-              </div>
-              <div>
-                <article>
-                  <img src={headphone2} alt="bitmap" />
-                  <div>
-                    <h4>SoundLink® aroundear wireless headphones</h4>
-                    <p>$269.99</p>
-                  </div>
-                </article>
-              </div>
-              <div>
-                <article>
-                  <img src={headphone3} alt="bitmap" />
-                  <div>
-                    <h4>Bose on-ear wireless headphones</h4>
-                    <p>$209.99</p>
-                  </div>
-                </article>
-              </div>
-              <div>
-                <article>
-                  <img src={headphone3} alt="bitmap" />
-                  <div>
-                    <h4>Bose on-ear wireless headphones</h4>
-                    <p>$209.99</p>
-                  </div>
-                </article>
-              </div>
-              <div>
-                <article>
-                  <img src={headphone3} alt="bitmap" />
-                  <div>
-                    <h4>Bose on-ear wireless headphones</h4>
-                    <p>$209.99</p>
-                  </div>
-                </article>
-              </div>
-              <div>
-                <article>
-                  <img src={headphone3} alt="bitmap" />
-                  <div>
-                    <h4>Bose on-ear wireless headphones</h4>
-                    <p>$209.99</p>
-                  </div>
-                </article>
-              </div>
-            </Slider>
+            <div>
+              <Slider {...settings}>
+                <div>
+                  <article className={styles.card}>
+                    <img className={styles.img} src={Bitmap} alt="bitmap" />
+                    <div>
+                      <h4 className={styles.heading4}>
+                        QuietComfort 35 wireless headphones II
+                      </h4>
+                      <p className={styles.price}>$449.99</p>
+                    </div>
+                  </article>
+                </div>
+                <div>
+                  <article className={styles.card}>
+                    <img
+                      className={styles.img}
+                      src={headphone2}
+                      alt="headphone2"
+                    />
+                    <div>
+                      <h4 className={styles.heading4}>
+                        SoundLink® aroundear wireless headphones
+                      </h4>
+                      <p className={styles.price}>$269.99</p>
+                    </div>
+                  </article>
+                </div>
+                <div>
+                  <article className={styles.card}>
+                    <img
+                      className={styles.img}
+                      src={headphone3}
+                      alt="headphone3"
+                    />
+                    <div>
+                      <h4 className={styles.heading4}>
+                        Bose on-ear wireless headphones
+                      </h4>
+                      <p className={styles.price}>$209.99</p>
+                    </div>
+                  </article>
+                </div>
+                <div>
+                  <article className={styles.card}>
+                    <img className={styles.img} src={Bitmap} alt="bitmap" />
+                    <div>
+                      <h4 className={styles.heading4}>
+                        Bose Noise Cancelling Headphones 700
+                      </h4>
+                      <p className={styles.price}>Coming Soon</p>
+                    </div>
+                  </article>
+                </div>
+                <div>
+                  <article className={styles.card}>
+                    <img
+                      className={styles.img}
+                      src={headphone3}
+                      alt="headphone3"
+                    />
+                    <div>
+                      <h4 className={styles.heading4}>
+                        QuietComfort 35 wireless headphones II
+                      </h4>
+                      <p className={styles.price}>$449.99</p>
+                    </div>
+                  </article>
+                </div>
+              </Slider>
+            </div>
           </div>
         </div>
       </div>

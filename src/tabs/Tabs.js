@@ -18,10 +18,12 @@ function Tabs() {
         </li>
         <li
           className={
-            styles.list + " " + (selectedTab === 1 ? styles.borderElement : "")
+            styles.list +
+            " " +
+            (selectedTab === "specs" ? styles.borderElement : "")
           }
           onClick={() => {
-            setSelectedTab(1);
+            setSelectedTab("specs");
           }}
         >
           Specs
