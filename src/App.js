@@ -7,6 +7,8 @@ import Section2 from "./premiumDesign/Section2";
 import "./App.css";
 import Battery from "./battery/Battery";
 import Products from "./products/Products";
+import Footer from "./footer/Footer";
+
 function App() {
   return (
     <div>
@@ -18,6 +20,7 @@ function App() {
       <Section2 />
       <Battery />
       <Products />
+      <Footer />
     </div>
   );
 }
