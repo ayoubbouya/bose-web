@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 # ![Screenshot_2021-02-07 React App](https://user-images.githubusercontent.com/23188047/107148775-b84f1e80-695d-11eb-925d-648bccaa93d9.jpg)
-
+Hit: this my first site with reactJs, it is Not responsive (Screen Width: 1680 pixels),Next Project will be responsive.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
